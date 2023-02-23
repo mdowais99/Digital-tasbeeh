@@ -1,0 +1,338 @@
+body {background: #556270;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.main {
+    width: 100%;
+    height: 90vh;
+    /* background-color: #a28ddbc4; */
+    /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdhH1Er3E-IrgxaI6DlTDo428Wq4YhzZXGZw&usqp=CAU) no-repeat ; */
+    
+
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headings{
+    background-color: #343a40d3;
+    color: rgb(118, 233, 118);
+}
+
+.box {
+    width: 499px;
+    height: 500px;
+    /* background-color: black; */
+    /* background: url(https://unsulbar.ac.id/wp-content/uploads/2014/07/gradient-background.jpg); */
+    border-radius: 48% 52% 51% 49% / 28% 29% 71% 72%;
+    border: 7px solid black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.inp {
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.numb {
+    width: 250px;
+    height: 60px;
+    background-color: #edf2fb;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 8px;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.butn {
+    display: flex;
+    /* justify-content: center; */
+    position: absolute;
+
+
+}
+
+.incre {
+    position: relative;
+    top: 89px;
+    border-radius: 48% 52% 51% 49% / 45% 44% 56% 55%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.753);
+    font-size: 4em;
+    font-weight: bold;
+    left: -70px;
+    /* background-color: white; */
+}
+
+.dcre {
+    position: relative;
+    padding: 2px;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.753);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    top: 96px;
+    right: 75px;
+    border-radius: 49% 51% 50% 50% / 28% 33% 67% 72%;
+}
+
+.res {
+    right: 140px;
+    /* top: 90px; */
+}
+
+#decer {
+    visibility: hidden;
+}
+.setLim{
+    width: 47px; 
+    height: 35px; 
+    margin: 0px 2px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.inpBtn {
+    position: relative;
+    width: 80px;
+    height: 35px;
+    
+    text-align: center;
+    /* top: 200; */
+    /* left: -10px; */
+}
+
+.lim {
+    position: relative;
+    display: flex;
+    left: 60px;
+    top: 25px;
+}
+
+@media(width<600px){
+    .box {
+        width: 470px;
+        height: 470px;
+    }
+    .dcre {
+        position: relative;
+        padding: 2px;
+        width: 95px;
+        height: 95px;
+        right: 70px;
+    }
+    .res {
+        right: 129px;
+    }
+    .incre {
+        position: relative;
+        top: 89px;
+        width: 180px;
+        height: 180px;
+        left: -65px;
+    }
+    
+}
+@media(width<510px){
+    .box {
+        width: 440px;
+        height: 470px;
+    }
+    .dcre {
+        position: relative;
+        padding: 2px;
+        width: 95px;
+        height: 95px;
+        right: 70px;
+    }
+    .res {
+        right: 129px;
+    }
+    .incre {
+        position: relative;
+        top: 99px;
+        width: 160px;
+        height: 160px;
+        left: -65px;
+    }
+    
+}
+@media(width<460px){
+    .box {
+        width: 400px;
+        height: 450px;
+    }
+    .dcre {
+        position: relative;
+        padding: 2px;
+        width: 89px;
+        height: 95px;
+        right: 70px;
+        font-size: small;
+        font-weight: bolder;
+    }
+    .res {
+        right: 129px;
+    }
+    .incre {
+        position: relative;
+        top: 110px;
+        width: 140px;
+        height: 140px;
+        left: -65px;
+    }
+    
+}
+@media(width<430px){
+    .box {
+        width: 350px;
+        height: 400px;
+    }
+    .dcre {
+        position: relative;
+        padding: 2px;
+        width: 75px;
+        height: 80px;
+        right: 69px;
+        top: 90px;
+        font-size: small;
+        font-weight: bolder;
+    }
+    .res {
+        right: 115px;
+    }
+    .incre {
+        position: relative;
+        top: 90px;
+        width: 120px;
+        height: 120px;
+        left: -55px;
+    }
+    .inpBtn {
+        position: relative;
+        width: 60px;
+        height: 35px;
+    }
+    
+    .lim {
+        position: relative;
+        display: flex;
+        left: 39px;
+        top: 30px;
+    }
+    
+    .setLim{
+        width: 44px; 
+        height: 35px; 
+        margin: 0px 2px;
+        padding: 10px;
+    }
+}
+@media(width<370px){
+    .box {
+        width: 320px;
+        height: 400px;
+    }
+    .dcre {
+        position: relative;
+        padding: 2px;
+        width: 80px;
+        height: 80px;
+        right: 60px;
+        top: 90px;
+        font-size: small;
+        font-weight: bolder;
+    }
+    .res {
+        right: 100px;
+    }
+    .incre {
+        position: relative;
+        top: 90px;
+        width: 120px;
+        height: 120px;
+        left: -64px;
+    }
+    .inpBtn {
+        position: relative;
+        width: 60px;
+        height: 30px;
+    }
+    
+    .lim {
+        position: relative;
+        display: flex;
+        left: 60px;
+        top: 30px;
+    }
+    
+    .setLim{
+        width: 42px; 
+        height: 30px; 
+        margin: 0px 2px;
+        padding: 10px;
+    }
+    .numb {
+        width: 220px;
+        height: 60px;    
+    }
+}
+@media(width<340px){
+    .box {
+        width: 300px;
+        height: 370px;
+    }
+    .dcre {
+        position: relative;
+        padding: 2px;
+        width: 75px;
+        height: 70px;
+        right: 60px;
+        top: 90px;
+        font-size: small;
+        font-weight: bolder;
+    }
+    .res {
+        right: 105px;
+    }
+    .incre {
+        position: relative;
+        top: 90px;
+        width: 100px;
+        height: 100px;
+        left: -64px;
+    }
+    .inpBtn {
+        position: relative;
+        width: 60px;
+        height: 25px;
+    }
+    
+    .lim {
+        position: relative;
+        display: flex;
+        left: 60px;
+        top: 35px;
+    }
+    
+    .setLim{
+        width: 45px; 
+        height: 25px; 
+        margin: 0px 2px;
+        text-align: center;
+        /* padding: 10px; */
+    }
+}
